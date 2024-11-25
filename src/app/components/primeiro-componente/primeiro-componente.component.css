@@ -1,0 +1,70 @@
+/* Seção Hero */
+.hero {
+    background: url('https://source.unsplash.com/1600x600/?books') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background: #45a049;
+  }
+  
+  /* Seção de Categorias */
+  .categorias {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .categorias h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .lista-categorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .categoria {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categoria h3 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+  }
+  
+  .categoria p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+
+  
+  

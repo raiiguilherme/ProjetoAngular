@@ -1,0 +1,20 @@
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #45a049;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }

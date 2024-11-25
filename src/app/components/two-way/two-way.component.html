@@ -1,0 +1,24 @@
+<div class="livros-container">
+<h2>Livros mais emprestados:</h2>
+
+    <ul>
+        <li >
+            <div class="card" >
+                @for (livro of livros; track $index) {
+                    
+
+                        @if (livro.vezes_emprestado>0) {
+                         <div class="card-body">
+                             <h3 class="card-title">{{ livro.titulo }}</h3>
+                             <p class="card-vezes">Vezes emprestado: {{ livro.vezes_emprestado }}</p>
+                           </div>
+                        }
+                    
+       
+                
+                    
+                    }
+            </div>
+        </li>
+    </ul>
+</div>

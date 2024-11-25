@@ -1,0 +1,30 @@
+<nav>
+    <a href="http://localhost:4200/livros-mais-emprestados" class="btn"> Livros +Emprestados</a>
+    
+    
+</nav>
+<div>
+    <h2>Livros disponíveis:</h2>
+
+    <ul>
+        <li >
+            <div class="info" >
+                @for (livro of livros; track $index) {
+               
+        <div class="card-body">
+        <h3 class="card-title">{{ livro.titulo }}</h3>
+        <p class="card-author">Autor: {{ livro.autor }}</p>
+        <p class="card-gen">Gênero: {{ livro.genero }}</p>
+        <p class="card-year">Ano: {{ livro.ano_publicacao }}</p>
+      </div>
+                
+                    
+                    }
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+
